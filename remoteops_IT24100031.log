@@ -1,0 +1,62 @@
+[2026-10-06 01:16:28] RemoteOps Agent started
+[2026-10-06 01:16:28] TCP server listening on port 9410
+[2026-10-06 01:27:18] RemoteOps Agent started
+[2026-10-06 01:27:18] TCP server listening on port 9410
+[2026-10-06 01:28:38] New Controller thread created
+[2026-10-06 01:28:38] Controller connected: 127.0.0.1:41826
+[2026-10-06 01:28:38] Command from 127.0.0.1:41826: HELLO
+[2026-10-06 01:28:38] Command from 127.0.0.1:41826: AUTH OPS-0031
+[2026-10-06 01:28:38] Controller authenticated
+[2026-10-06 01:28:38] Command from 127.0.0.1:41826: SYSINFO
+[2026-10-06 01:28:38] Command from 127.0.0.1:41826: LISTPROC
+[2026-10-06 01:28:38] Command from 127.0.0.1:41826: EXEC DATE
+[2026-10-06 01:28:38] Command from 127.0.0.1:41826: EXEC UPTIME
+[2026-10-06 01:28:38] Command from 127.0.0.1:41826: EXEC DISKFREE
+[2026-10-06 01:28:38] Command from 127.0.0.1:41826: EXEC HOSTNAME
+[2026-10-06 01:28:38] Command from 127.0.0.1:41826: EXEC WHOAMI
+[2026-10-06 01:28:38] Command from 127.0.0.1:41826: EXEC LS
+[2026-10-06 01:28:38] EXEC rejected: command not allowed
+[2026-10-06 01:28:38] Command from 127.0.0.1:41826: PUT test_upload.txt 44
+[2026-10-06 01:28:38] PUT completed: test_upload.txt (44 bytes)
+[2026-10-06 01:28:38] Command from 127.0.0.1:41826: GET test_upload.txt
+[2026-10-06 01:28:38] GET completed: test_upload.txt (44 bytes)
+[2026-10-06 01:28:38] Command from 127.0.0.1:41826: MONITOR START 9001
+[2026-10-06 01:28:38] UDP monitoring started: 127.0.0.1:9001
+[2026-10-06 01:28:38] UDP monitoring sent: SYSINFO 1.06 1671364 55417 SID:1300
+[2026-10-06 01:28:43] UDP monitoring sent: SYSINFO 1.14 1671360 55422 SID:1300
+[2026-10-06 01:28:48] UDP monitoring sent: SYSINFO 1.13 1671360 55427 SID:1300
+[2026-10-06 01:28:48] Command from 127.0.0.1:41826: MONITOR STOP
+[2026-10-06 01:28:49] UDP monitoring stopped: 127.0.0.1:9001
+[2026-10-06 01:28:49] Command from 127.0.0.1:41826: QUIT
+[2026-10-06 01:28:49] Controller requested QUIT
+[2026-10-06 01:28:49] Controller connection closed
+[2026-10-06 09:15:45] RemoteOps Agent started
+[2026-10-06 09:15:45] TCP server listening on port 9410
+[2026-10-06 09:16:01] New Controller thread created
+[2026-10-06 09:16:01] Controller connected: 127.0.0.1:46584
+[2026-10-06 09:16:01] Command from 127.0.0.1:46584: HELLO
+[2026-10-06 09:16:01] Command from 127.0.0.1:46584: AUTH OPS-0031
+[2026-10-06 09:16:01] Controller authenticated
+[2026-10-06 09:16:01] Command from 127.0.0.1:46584: SYSINFO
+[2026-10-06 09:16:01] Command from 127.0.0.1:46584: LISTPROC
+[2026-10-06 09:16:01] Command from 127.0.0.1:46584: EXEC DATE
+[2026-10-06 09:16:01] Command from 127.0.0.1:46584: EXEC UPTIME
+[2026-10-06 09:16:01] Command from 127.0.0.1:46584: EXEC DISKFREE
+[2026-10-06 09:16:01] Command from 127.0.0.1:46584: EXEC HOSTNAME
+[2026-10-06 09:16:01] Command from 127.0.0.1:46584: EXEC WHOAMI
+[2026-10-06 09:16:01] Command from 127.0.0.1:46584: EXEC LS
+[2026-10-06 09:16:01] EXEC rejected: command not allowed
+[2026-10-06 09:16:01] Command from 127.0.0.1:46584: PUT test_upload.txt 44
+[2026-10-06 09:16:01] PUT completed: test_upload.txt (44 bytes)
+[2026-10-06 09:16:01] Command from 127.0.0.1:46584: GET test_upload.txt
+[2026-10-06 09:16:01] GET completed: test_upload.txt (44 bytes)
+[2026-10-06 09:16:01] Command from 127.0.0.1:46584: MONITOR START 9001
+[2026-10-06 09:16:01] UDP monitoring started: 127.0.0.1:9001
+[2026-10-06 09:16:01] UDP monitoring sent: SYSINFO 0.54 1646 83460 SID:1300
+[2026-10-06 09:16:06] UDP monitoring sent: SYSINFO 0.50 1646 83465 SID:1300
+[2026-10-06 09:16:11] UDP monitoring sent: SYSINFO 0.62 1646 83470 SID:1300
+[2026-10-06 09:16:11] Command from 127.0.0.1:46584: MONITOR STOP
+[2026-10-06 09:16:12] UDP monitoring stopped: 127.0.0.1:9001
+[2026-10-06 09:16:12] Command from 127.0.0.1:46584: QUIT
+[2026-10-06 09:16:12] Controller requested QUIT
+[2026-10-06 09:16:12] Controller connection closed

@@ -1,0 +1,12 @@
+# Compiled executables
+agent_031
+controller_031
+
+# Temporary downloaded test file
+downloaded_test.txt
+
+# Backup source files
+agent_031_concurrency_backup.c
+agent_031_single_client_backup.c
+controller_031_tcp_backup.c
+
