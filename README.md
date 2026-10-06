@@ -546,3 +546,7 @@ The Agent is compiled with:
 **Registration Number:** IT24100031
 
 **Module:** IE3090 Network Programming
+The project was tested for TCP communication, authentication,
+SYSINFO, LISTPROC, EXEC, PUT, GET, concurrent controllers,
+UDP monitoring, graceful disconnection, and file integrity.
+
