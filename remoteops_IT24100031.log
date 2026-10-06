@@ -90,3 +90,33 @@
 [2026-10-06 09:37:56] Command from 127.0.0.1:40198: QUIT
 [2026-10-06 09:37:56] Controller requested QUIT
 [2026-10-06 09:37:56] Controller connection closed
+[2026-10-06 10:03:48] RemoteOps Agent started
+[2026-10-06 10:03:48] TCP server listening on port 9410
+[2026-10-06 10:04:27] New Controller thread created
+[2026-10-06 10:04:27] Controller connected: 127.0.0.1:40338
+[2026-10-06 10:04:27] Command from 127.0.0.1:40338: HELLO
+[2026-10-06 10:04:27] Command from 127.0.0.1:40338: AUTH OPS-0031
+[2026-10-06 10:04:27] Controller authenticated
+[2026-10-06 10:04:27] Command from 127.0.0.1:40338: SYSINFO
+[2026-10-06 10:04:27] Command from 127.0.0.1:40338: LISTPROC
+[2026-10-06 10:04:27] Command from 127.0.0.1:40338: EXEC DATE
+[2026-10-06 10:04:27] Command from 127.0.0.1:40338: EXEC UPTIME
+[2026-10-06 10:04:27] Command from 127.0.0.1:40338: EXEC DISKFREE
+[2026-10-06 10:04:27] Command from 127.0.0.1:40338: EXEC HOSTNAME
+[2026-10-06 10:04:27] Command from 127.0.0.1:40338: EXEC WHOAMI
+[2026-10-06 10:04:27] Command from 127.0.0.1:40338: EXEC LS
+[2026-10-06 10:04:27] EXEC rejected: command not allowed
+[2026-10-06 10:04:27] Command from 127.0.0.1:40338: PUT test_upload.txt 44
+[2026-10-06 10:04:27] PUT completed: test_upload.txt (44 bytes)
+[2026-10-06 10:04:27] Command from 127.0.0.1:40338: GET test_upload.txt
+[2026-10-06 10:04:27] GET completed: test_upload.txt (44 bytes)
+[2026-10-06 10:04:27] Command from 127.0.0.1:40338: MONITOR START 9001
+[2026-10-06 10:04:27] UDP monitoring started: 127.0.0.1:9001
+[2026-10-06 10:04:27] UDP monitoring sent: SYSINFO 0.83 1689 86366 SID:1300
+[2026-10-06 10:04:32] UDP monitoring sent: SYSINFO 0.76 1689 86371 SID:1300
+[2026-10-06 10:04:37] UDP monitoring sent: SYSINFO 0.70 1689 86376 SID:1300
+[2026-10-06 10:04:37] Command from 127.0.0.1:40338: MONITOR STOP
+[2026-10-06 10:04:38] UDP monitoring stopped: 127.0.0.1:9001
+[2026-10-06 10:04:38] Command from 127.0.0.1:40338: QUIT
+[2026-10-06 10:04:38] Controller requested QUIT
+[2026-10-06 10:04:38] Controller connection closed
